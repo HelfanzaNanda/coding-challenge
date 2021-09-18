@@ -102,7 +102,7 @@
 			$.ajax({
 				url: url,
 				"headers": { 'X-CSRF-TOKEN': token },
-				type: "POST"
+				type: "DELETE"
 			})
 			.done( function( data ) {
 				if (data.status) {

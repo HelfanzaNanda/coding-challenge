@@ -14,12 +14,14 @@
     @include('layouts.partials._head')
 </head>
 <body>
-    <div id="app">
+    <div id="app" style="background: #f8f9fa!important; height: 100vh;">
         @include('layouts.partials._navbar')
 
         <main class="py-4">
             @yield('content')
         </main>
     </div>
+
+	@stack('scripts')
 </body>
 </html>
