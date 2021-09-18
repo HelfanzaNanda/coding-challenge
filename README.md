@@ -10,6 +10,7 @@
 - demo : https://aic-coding-challange.herokuapp.com/
 
 
+# akun :
 - role admin : 
 - email : admin@gmail.com
 - pass : password
